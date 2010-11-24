@@ -6,7 +6,7 @@
 Summary:	Swish-e bindings
 Name:		php-%{modname}
 Version:	0.4.0
-Release:	%mkrel 6
+Release:	%mkrel 7
 Group:		Development/PHP
 License:	PHP License
 URL:		http://pecl.php.net/package/swish/
