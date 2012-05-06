@@ -5,13 +5,12 @@
 
 Summary:	Swish-e bindings
 Name:		php-%{modname}
-Version:	0.4.0
-Release:	%mkrel 14
+Version:	0.5.0
+Release:	%mkrel 1
 Group:		Development/PHP
 License:	PHP License
 URL:		http://pecl.php.net/package/swish/
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
-Patch0:		swish-0.4.0-php54x.diff
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRequires:	swish-e-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -23,8 +22,6 @@ This extension provides bindings to the Swish-e API.
 
 %setup -q -n %{modname}-%{version}
 [ "../package*.xml" != "/" ] && mv ../package*.xml .
-
-%patch0 -p0
 
 %build
 %serverbuild
