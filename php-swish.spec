@@ -65,3 +65,70 @@ rm -rf %{buildroot}
 %config(noreplace) %attr(0644,root,root) %{_sysconfdir}/php.d/%{inifile}
 %attr(0755,root,root) %{_libdir}/php/extensions/%{soname}
 
+
+
+%changelog
+* Sun May 06 2012 Oden Eriksson <oeriksson@mandriva.com> 0.5.0-1mdv2012.0
++ Revision: 797178
+- 0.5.0 (the patch was added)
+
+* Sun May 06 2012 Oden Eriksson <oeriksson@mandriva.com> 0.4.0-14
++ Revision: 797015
+- fix build
+- rebuild for php-5.4.x
+
+* Sun Jan 15 2012 Oden Eriksson <oeriksson@mandriva.com> 0.4.0-13
++ Revision: 761303
+- rebuild
+
+* Wed Aug 24 2011 Oden Eriksson <oeriksson@mandriva.com> 0.4.0-12
++ Revision: 696476
+- rebuilt for php-5.3.8
+
+* Fri Aug 19 2011 Oden Eriksson <oeriksson@mandriva.com> 0.4.0-11
++ Revision: 695471
+- rebuilt for php-5.3.7
+
+* Sat Mar 19 2011 Oden Eriksson <oeriksson@mandriva.com> 0.4.0-10
++ Revision: 646691
+- rebuilt for php-5.3.6
+
+* Sat Jan 08 2011 Oden Eriksson <oeriksson@mandriva.com> 0.4.0-9mdv2011.0
++ Revision: 629881
+- rebuilt for php-5.3.5
+
+* Mon Jan 03 2011 Oden Eriksson <oeriksson@mandriva.com> 0.4.0-8mdv2011.0
++ Revision: 628195
+- ensure it's built without automake1.7
+
+* Wed Nov 24 2010 Oden Eriksson <oeriksson@mandriva.com> 0.4.0-7mdv2011.0
++ Revision: 600537
+- rebuild
+
+* Sun Oct 24 2010 Oden Eriksson <oeriksson@mandriva.com> 0.4.0-6mdv2011.0
++ Revision: 588874
+- rebuild
+
+* Fri Mar 05 2010 Oden Eriksson <oeriksson@mandriva.com> 0.4.0-5mdv2010.1
++ Revision: 514664
+- rebuilt for php-5.3.2
+
+* Sat Jan 02 2010 Oden Eriksson <oeriksson@mandriva.com> 0.4.0-4mdv2010.1
++ Revision: 485489
+- rebuilt for php-5.3.2RC1
+
+* Sat Nov 21 2009 Oden Eriksson <oeriksson@mandriva.com> 0.4.0-3mdv2010.1
++ Revision: 468260
+- rebuilt against php-5.3.1
+
+* Wed Oct 07 2009 Oden Eriksson <oeriksson@mandriva.com> 0.4.0-2mdv2010.0
++ Revision: 455463
+- rebuild
+
+* Tue Oct 06 2009 Oden Eriksson <oeriksson@mandriva.com> 0.4.0-1mdv2010.0
++ Revision: 454759
+- import php-swish
+
+
+* Tue Oct 06 2009 Oden Eriksson <oeriksson@mandriva.com> 0.4.0-1mdv2010.0
+- initial Mandriva package
